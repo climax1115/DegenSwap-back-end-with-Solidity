@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Degen/BridgeContract/DegenBridge.sol": "TransferHelper"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Degen/BridgeContract/DegenBridge.sol": {
+			"keccak256": "0x79351cdc960e5ad9ff2321023890d5b65f17009944e7d4953eaf39ac62cbf44a",
+			"license": "No License (None)",
+			"urls": [
+				"bzz-raw://e18032d25afe27f1c79de0b0e8747d1bd526e44e85ae100f5e1e69730d2bc3cf",
+				"dweb:/ipfs/Qmcw6qHrK4HrAK86XETsPjUVwaHBN1pAuh7kYXpeXM18Ng"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,95 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "tokenA",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "tokenB",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "user",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "crossOrderType",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "dexId",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "deadline",
+						"type": "uint256"
+					}
+				],
+				"name": "swap",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Degen/Polygon/degen.sol": "ISwapFactory"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Degen/Polygon/degen.sol": {
+			"keccak256": "0x8c1df76c94bcaa758bc0f39d19bcd836bea2392bb7a81c39b3355c3d64dae9d4",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://9d725996249ac02e39b1046b2ff85f403a7780d1b8e14acd8546b7f1f9451688",
+				"dweb:/ipfs/QmZjGvznJAvu9VPDnVxFfCaKBwCCp3Yod6prJFBByPLrx2"
+			]
+		}
+	},
+	"version": 1
+}
